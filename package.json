@@ -7,6 +7,12 @@
     "create-backend-app": "./bin/index.js"
   },
   "type": "module",
+  "files": [
+    "bin",
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
   "scripts": {
     "start": "node ./bin/index.js",
     "test": "node --test tests/generator.test.js"
@@ -23,6 +29,9 @@
     "mongoose",
     "authentication"
   ],
+  "engines": {
+    "node": ">=18.0.0"
+  },
   "author": "",
   "license": "MIT",
   "dependencies": {
